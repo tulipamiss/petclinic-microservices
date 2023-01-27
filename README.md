@@ -2440,7 +2440,7 @@ aws s3api put-object --bucket petclinic-helm-charts-<put-your-name> --key stable
 * Install the helm-s3 plugin for Amazon S3.
 
 ```bash
-helm plugin install https://github.com/hypnoglow/helm-s3.git
+ 
 ```
 
 * On some systems we need to install ``Helm S3 plugin`` as Jenkins user to be able to use S3 with pipeline script.
